@@ -1,0 +1,160 @@
+h1 {
+  font-family: "Bakbak One", cursive;
+  color: white;
+  font-size: 3.8rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+h2 {
+  font-family: "Bakbak One", bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: "Bakbak One";
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+#title {
+  background-color: #ff4c68;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+#tindog-navbar {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.8rem;
+  font-weight: bold;
+}
+.navbar-nav {
+  margin-left: auto;
+}
+
+.navbar-nav > li {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.rotated {
+  margin-left: 30%;
+  margin-top: 10%;
+  width: 60%;
+  transform: rotate(25deg); /* Equal to rotateZ(45deg) */
+}
+
+.download-button {
+  margin: 5% 3% 5% 0%;
+}
+
+.fa-check-circle {
+  color: #ff4c68;
+  position: relative;
+  bottom: 25px;
+  left: 20px;
+  text-align: center;
+}
+
+.fa-bullseye {
+  color: #ff4c68;
+  position: relative;
+  bottom: 25px;
+  left: 20px;
+  text-align: center;
+}
+
+.fa-heart {
+  color: #ff4c68;
+  bottom: 20px;
+}
+
+#features {
+  padding: 7% 15%;
+
+  background-color: white;
+  text-align: center;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.pebbles {
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ff4c68;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#pricing {
+  padding: 100px;
+}
+
+.pricing-colum {
+  padding: 3% 2%;
+  text-align: center;
+}
+
+@media (max-width: 1080px) {
+
+  #title{
+    text-align: center;
+  }
+
+  .rotated{
+    position: static;
+    transform: rotate(0);
+    
+  }
+}
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+}
+
+.last{
+  font-family: "Montserrat-Black", cursive;
+  color: white;
+  font-size: 3.8rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.copyright{
+  margin-top: 10px;
+  text-align: center;
+}
+
+.footer-icons{
+  margin-top: 110px;
+  text-align: center;
+}
+
+.social-icon{
+  margin: 20px 10px;
+}
